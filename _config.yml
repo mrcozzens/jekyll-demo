@@ -8,7 +8,17 @@ baseurl: "/Jekyll-Demo" # the subpath of your site, e.g. /blog
 url: "https://www.mrcozzens.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-permalink: /articles/:year/:month/:title.html # change permalink structure with articles in front.
+
+
+# AC FIX PERMALINK ON GH-PAGES SET DEFAULTS
+defaults:
+-
+   scope:
+     path: ""
+     type: "posts"
+   values:
+     permalink: /articles/:year/:month/:title.html # change permalink structure with articles in front.
+
 
 # Build settings
 markdown: kramdown
