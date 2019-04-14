@@ -5,7 +5,8 @@ email: #your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Gets built with gh-pages local. no remote repo. test
 baseurl: "/Jekyll-Demo" # the subpath of your site, e.g. /blog
-url: "https://www.mrcozzens.org" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://www.mrcozzens.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
