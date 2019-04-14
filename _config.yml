@@ -8,6 +8,7 @@ baseurl: "/Jekyll-Demo" # the subpath of your site, e.g. /blog
 url: "https://www.mrcozzens.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+permalink: /articles/:year/:month/:title.html # change permalink structure.
 
 # Build settings
 markdown: kramdown
