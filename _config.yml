@@ -12,7 +12,6 @@ permalink: /articles/:year/:month/:title.html # change permalink structure.
 
 # Build settings
 markdown: kramdown
-#theme: jekyll-theme-time-machine
 plugins:
   - jekyll-feed
 
