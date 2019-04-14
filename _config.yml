@@ -4,7 +4,7 @@ title: MrC Jekyll Project Page Test
 email: #your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Base Jekyll Image, installed as gh-pages branch with no external build.
-baseurl: "/jekyll" # the subpath of your site, e.g. /blog
+baseurl: "/Jekyll-Demo" # the subpath of your site, e.g. /blog
 url: "https://www.mrcozzens.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
